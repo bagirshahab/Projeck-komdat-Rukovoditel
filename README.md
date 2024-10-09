@@ -1,4 +1,4 @@
-# Aplikasi Web "XYZ"
+# Aplikasi Web "Leantime"
 Tugas Projek sesi UTS mata kuliah Komdat kelompok 4, Dapat diakses di
 
 ## Sekilas Tentang
