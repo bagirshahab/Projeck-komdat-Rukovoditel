@@ -1,5 +1,5 @@
 # Aplikasi Web "Leantime"
-Tugas Projek sesi UTS mata kuliah Komdat kelompok 4, Dapat diakses di
+Tugas Projek sesi UTS mata kuliah Komdat kelompok 6, Dapat diakses di
 
 ## Sekilas Tentang
 Leantime adalah perangkat lunak open source yang dirancang khusus untuk mendukung manajemen proyek secara strategis dari awal hingga akhir. Platform ini sangat cocok bagi perusahaan dan tim yang ingin merancang serta mengelola proyek dengan cara yang lebih sederhana dan efisien. Berbeda dengan alat manajemen proyek yang umumnya digunakan oleh manajer proyek profesional, Leantime dirancang untuk mereka yang tidak memiliki latar belakang manajemen proyek formal. Dengan menggabungkan aspek perencanaan dan eksekusi proyek dalam satu tempat, Leantime mempermudah semua anggota tim untuk ikut serta dalam proses manajemen, tanpa perlu keahlian khusus.
