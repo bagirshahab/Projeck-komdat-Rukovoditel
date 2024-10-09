@@ -8,8 +8,9 @@ Sebagai alternatif yang menggabungkan fitur-fitur dari platform populer seperti 
 
 ## Instalasi
 
-- Prasyarat, apa saja yang harus diinstal sebelumnya.
-- Langkah instalasi dalam CLI.
+- Google virtual
+- Mysql
+- php
 
 
 ## Konfigurasi (opsional)
