@@ -36,7 +36,18 @@ Plugin untuk fungsi tambahan
 - Tampilan aplikasi web
 - Fungsi-fungsi utama
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
-- Tetststtststststst
+- Tampilan Dasboard Rukovoditel
+![image](https://github.com/user-attachments/assets/f48255a0-1b50-43b9-821d-135deef92484)
+- Tampilan Pada bagian Project 
+![Screenshot 2024-10-12 201436](https://github.com/user-attachments/assets/74b4b692-34a1-47fa-80e9-217e1d1982c2)
+- Tampilan Bagian User 
+![Screenshot 2024-10-12 201556](https://github.com/user-attachments/assets/8a6e4fa9-2638-41b7-aecc-1e84b74198bc)
+- Tampilan bagian add new project 
+![Screenshot 2024-10-12 201528](https://github.com/user-attachments/assets/8f4ef94e-ee72-4567-b669-20758b3a8c2a)
+
+
+
+  
 
 
 ## Pembahasan
