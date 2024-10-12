@@ -1,3 +1,6 @@
+| [Sekilas Tentang](#Sekilas Tentang) | [Instalasi](#Instalasi) | [Cara Pemakaian](#Cara Pemakaian) | [Pembahasan](#Pembahasan) | [Referensi](#Referensi) |
+|-------------------------------------|--------------------------|-----------------------------|-----------------------------|-----------------------------------|
+
 # Aplikasi Web "Rukovoditel"
 [^ kembali ke atas ^](#top)
 
@@ -19,33 +22,12 @@ Rukovoditel pertama kali dirilis pada November 2014 dan dilisensikan di bawah GN
 - php
 
 
-## Konfigurasi (opsional)
-[^ kembali ke atas ^](#top)
-
-Setting server tambahan yang diperlukan untuk meningkatkan fungsi dan kinerja aplikasi, misalnya:
-- batas upload file
-- batas memori
-- dll
 
 Plugin untuk fungsi tambahan
 - login dengan Google/Facebook
 - editor Markdown
 - dll
 
-
-##  Maintenance (opsional)
-[^ kembali ke atas ^](#top)
-
-Setting tambahan untuk maintenance secara periodik, misalnya:
-- buat backup database tiap pekan
-- hapus direktori sampah tiap hari
-- dll
-
-
-## Otomatisasi (opsional)
-[^ kembali ke atas ^](#top)
-
-Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 
 
 ## Cara Pemakaian
