@@ -1,10 +1,9 @@
-# Aplikasi Web "Rukov"
+# Aplikasi Web "Rukovoditel"
 Tugas Projek sesi UTS mata kuliah Komdat kelompok 6, Dapat diakses di
 
 ## Sekilas Tentang
-Leantime adalah perangkat lunak open source yang dirancang khusus untuk mendukung manajemen proyek secara strategis dari awal hingga akhir. Platform ini sangat cocok bagi perusahaan dan tim yang ingin merancang serta mengelola proyek dengan cara yang lebih sederhana dan efisien. Berbeda dengan alat manajemen proyek yang umumnya digunakan oleh manajer proyek profesional, Leantime dirancang untuk mereka yang tidak memiliki latar belakang manajemen proyek formal. Dengan menggabungkan aspek perencanaan dan eksekusi proyek dalam satu tempat, Leantime mempermudah semua anggota tim untuk ikut serta dalam proses manajemen, tanpa perlu keahlian khusus.
 
-Sebagai alternatif yang menggabungkan fitur-fitur dari platform populer seperti ClickUp, Monday, Asana, dan Trello, Leantime menawarkan solusi yang fleksibel dan mudah diakses. Keunggulannya terletak pada kesederhanaan antarmuka dan fungsionalitas yang intuitif, sehingga memungkinkan seluruh tim, dari berbagai latar belakang, untuk bekerja sama dengan lebih efektif. Alat ini memberikan integrasi antara perencanaan strategis dan pelaksanaan pekerjaan sehari-hari, sehingga dapat meningkatkan produktivitas dan memastikan semua anggota tim berada pada jalur yang sama dalam setiap fase proyek.
+Rukovoditel adalah aplikasi open source yang bisa diinstal di server lokal atau server internet yang mendukung PHP/MySQL. Proyek ini terdiri dari dua bagian: bagian utama yang gratis dan Ekstensi. Di bagian utama, Rukovoditel menyediakan berbagai alat yang memudahkan Anda untuk merancang dan mengatur aplikasi sesuai kebutuhan. Sedangkan, Ekstensi menawarkan fitur tambahan seperti laporan dan alat yang lebih canggih untuk mendukung perencanaan dan manajemen yang lebih optimal.
 
 ## Instalasi
 
