@@ -82,3 +82,7 @@ Rukovoditel adalah aplikasi yang cocok untuk organisasi yang membutuhkan solusi 
 
 - [DOCUMENTATION](https://www.rukovoditel.net/)
 - [RUKOVODITEL SELF-HOSTING](http://hexakomdat.my.id/rukovoditel/)
+- [TRELLO](https://trello.com/)
+- [ASANA](https://asana.com/id)
+- [JIRA](https://jira.atlassian.com/)
+- [REDMINE](https://www.redmine.org/)
