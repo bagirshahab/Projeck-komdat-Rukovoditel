@@ -74,6 +74,7 @@ Rukovoditel adalah aplikasi manajemen proyek open-source yang memungkinkan pengg
 Rukovoditel adalah aplikasi yang cocok untuk organisasi yang membutuhkan solusi manajemen proyek yang terjangkau dan fleksibel. Meski antarmuka dan dukungannya terbatas, kustomisasi yang luas dan opsi ekstensi menjadikannya pilihan menarik dibandingkan aplikasi sejenis lainnya.
 
 ## Referensi
+[^ kembali ke atas ^](#top)
 
 - [DOCUMENTATION](https://www.rukovoditel.net/)
 - [RUKOVODITEL SELF-HOSTING](http://hexakomdat.my.id/rukovoditel/)
