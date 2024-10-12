@@ -20,18 +20,127 @@ Rukovoditel adalah aplikasi open source yang bisa diinstal di server lokal atau 
 Rukovoditel pertama kali dirilis pada November 2014 dan dilisensikan di bawah GNU GPLv3. Aplikasi ini ditulis dalam bahasa pemrograman PHP dan sudah dioptimalkan untuk perangkat mobile. Rukovoditel juga mendukung LDAP untuk otentikasi, tersedia dalam berbagai bahasa, serta mampu menampilkan teks dalam arah kanan ke kiri (RTL), menjadikannya fleksibel dan dapat digunakan oleh beragam pengguna dari berbagai penjuru dunia.
 
 ## Instalasi
-[^ kembali ke atas ^](#top)
+[^kembali ke atas^](#top)
 
-- Google virtual
-- Mysql
-- php
+### Persyaratan Sistem
+- **PHP** 8.0+
+- **MariaDB** 10.3+ atau **MySQL** 5.7+
+- **Apache** Web Server
+- VPS dengan akses Cpanel
 
+Install seluruh paket dan pastikan sistem telah terupdate
+```
+    $ sudo apt-get update
+    $ sudo apt-get install apache2
+    $ sudo apt-get install mariadb-server -y
+    $ sudo apt-get install php libapache2-mod-php php-mysql php-zip -y
+    $ sudo apt-get install php-gd php-mcrypt php-mbstring php-xml php-ssh2 php-curl php-zip php-intl
+    $ sudo apt-get install unzip
+```
 
+### Proses Instalasi
+1. Download dan Ekstrak Rukovoditel
+```
+wget https://sourceforge.net/projects/rukovoditel/files/rukovoditel_3.5.4.zip
+unzip rukovoditel_3.5.4.zip
+```
 
-Plugin untuk fungsi tambahan
-- login dengan Google/Facebook
-- editor Markdown
-- dll
+2. Buat Database untuk Rukovoditel
+Amankan instalasi MySQL dengan perintah berikut:
+```
+    sudo mysql_secure_installation
+```
+![image](images/mysql_secure.png)
+Masuk ke MySQL dan buat data base baru
+```
+    mysql -u root -p
+    CREATE DATABASE rukovoditel;
+```
+
+Beri hak akses untuk pengguna pada database yang baru dibuat:
+```
+    GRANT ALL PRIVILEGES ON rukovoditel.* TO 'user'@'localhost' IDENTIFIED BY 'password';
+    FLUSH PRIVILEGES;
+    EXIT;
+```
+
+3. Aktifkan modul rewrite pada Apache
+```
+    sudo a2enmod rewrite
+    sudo service apache2 restart
+```
+
+4. Cek IP Address Lokal
+```
+    ifconfig
+```
+Pindahkan folder rukovoditel ke direktori `/var/www/html/`
+```
+    sudo mv rukovoditel/ /var/www/html/rukovoditel/
+```
+
+5. Konfigurasi Permission
+Berikan hak akses kepada pengguna www-data untuk direktori rukovoditel
+```
+    chown www-data:www-data -R /var/www/html/rukovoditel/
+    sudo touch /etc/apache2/sites-available/rukovoditel.conf
+    sudo ln -s /etc/apache2/sites-available/rukovoditel.conf /etc/apache2/sites-enabled/rukovoditel.conf
+```
+Edit file konfigurasi tersebut
+```
+    sudo nano /etc/apache2/sites-available/rukovoditel.conf
+```
+Isi file konfigurasiberikut:
+```
+    <VirtualHost *:80>
+        ServerAdmin admin@ubuntu
+        DocumentRoot /var/www/html/rukovoditel
+        ServerName [IP-ADDRESS]
+        ServerAlias ubuntu
+
+        <Directory /var/www/html/rukovoditel/>
+            Options Indexes FollowSymLinks
+            AllowOverride All
+            Require all granted
+        </Directory>
+
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+    </VirtualHost>
+```
+Aktifkan konfigurasi dan restart Apache
+```
+    sudo ln -s /etc/apache2/sites-available/rukovoditel.conf /etc/apache2/sites-enabled/rukovoditel.conf
+    sudo service apache2 restart
+```
+
+6. Uji Apilkasi dan Upload ke dalam CPanel pada VPS
+Uji dengan membuka browser dan ketikkan alamat IP server
+```
+    http://[IP-ADDRESS]/rukovoditel/
+```
+![image](images/uji-coba-1.png)
+Aplikasi berjalan dengan baik
+
+7. Konfigurasi Rukovoditel pada VPS
+- Upload file rukovoditel ke dalam CPanel
+![image](images/Langkah%202%20KDJK.png)
+
+- Import database ke dalam CPanel
+![image](images/Langkah%202.1%20KDJK%20.png)
+
+- Buka aplikasi Rukovoditel
+- Pilih Bahasa yang akan digunakan
+- Konfigurasi Database
+![image](images/Database%20config.png)
+![image](images/Langkah%205%20KDJK.png)
+
+- Tambahkan nama, admin user dibagian MySQL database ini. Setelah selesai setting database, kita lanjutkan proses intalasi
+![image](images/Langkah%206%20KJDK.png)
+
+- Setelah selesai, tampilan website akan berubah seperti berikut
+![image](images/Langkah%207%20KDJK.png)
+
 
 
 
