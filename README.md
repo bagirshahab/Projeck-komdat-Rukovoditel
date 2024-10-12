@@ -26,7 +26,7 @@ Rukovoditel pertama kali dirilis pada November 2014 dan dilisensikan di bawah GN
 - **PHP** 8.0+
 - **MariaDB** 10.3+ atau **MySQL** 5.7+
 - **Apache** Web Server
-- VPS dengan akses Cpanel
+- **Linux** atau **Windows** OS
 
 Install seluruh paket dan pastikan sistem telah terupdate
 ```
