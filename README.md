@@ -51,9 +51,24 @@ Skrip shell untuk otomatisasi instalasi, konfigurasi, dan maintenance.
 ## Cara Pemakaian
 [^ kembali ke atas ^](#top)
 
-- Tampilan aplikasi web
+- Tampilan aplikasi web 
 - Fungsi-fungsi utama
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
+Tampilan Awal Aplikasi Rukovoditel
+Dashboard : 
+![image](https://github.com/user-attachments/assets/f357363d-b507-4ca4-8d1b-bd08b2dee82c)
+Tampilan Bagian Project : 
+![image](https://github.com/user-attachments/assets/49ea5e04-64d4-4247-b43a-93fae20d71d1)
+Tampilan add New Project : 
+![image](https://github.com/user-attachments/assets/a18b496b-5550-4078-a190-3c036b4c4a33)
+User : 
+
+![image](https://github.com/user-attachments/assets/c3fb4a46-02a0-4ee0-ab90-5abe489f1e6b)
+
+
+
+
+
 
 
 ## Pembahasan
