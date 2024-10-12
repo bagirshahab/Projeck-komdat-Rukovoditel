@@ -75,4 +75,4 @@ Rukovoditel adalah aplikasi yang cocok untuk organisasi yang membutuhkan solusi 
 
 ## Referensi
 
-Cantumkan tiap sumber informasi yang anda pakai.
+- [Rukovoditel](https://www.rukovoditel.net/)
