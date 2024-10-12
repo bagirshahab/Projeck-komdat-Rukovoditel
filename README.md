@@ -75,4 +75,5 @@ Rukovoditel adalah aplikasi yang cocok untuk organisasi yang membutuhkan solusi 
 
 ## Referensi
 
-- [Rukovoditel](https://www.rukovoditel.net/)
+- [DOCUMENTATION](https://www.rukovoditel.net/)
+- [RUKOVODITEL SELF-HOSTING](http://hexakomdat.my.id/rukovoditel/)
