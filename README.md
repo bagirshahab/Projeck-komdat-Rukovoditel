@@ -1,6 +1,3 @@
-![Deskripsi Gambar]([https://example.com/nama-gambar.png](https://drive.google.com/file/d/1hYykxCcK3fX2naRxNmQxvl2KTLtVlXIK/view?usp=drive_link))
-
-
 
 | [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) |
 |------------------------------------|-------------------------|-----------------------------------|--------------------------|------------------------|
