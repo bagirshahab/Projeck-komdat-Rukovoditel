@@ -1,5 +1,5 @@
-| [Sekilas Tentang](#Sekilas Tentang) | [Instalasi](#Instalasi) | [Cara Pemakaian](#Cara Pemakaian) | [Pembahasan](#Pembahasan) | [Referensi](#Referensi) |
-|-------------------------------------|--------------------------|-----------------------------|-----------------------------|-----------------------------------|
+| [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) |
+|------------------------------------|-------------------------|-----------------------------------|--------------------------|------------------------|
 
 # Aplikasi Web "Rukovoditel"
 [^ kembali ke atas ^](#top)
