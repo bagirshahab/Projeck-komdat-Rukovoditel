@@ -1,4 +1,4 @@
-# Aplikasi Web "Leantime"
+# Aplikasi Web "Rukov"
 Tugas Projek sesi UTS mata kuliah Komdat kelompok 6, Dapat diakses di
 
 ## Sekilas Tentang
