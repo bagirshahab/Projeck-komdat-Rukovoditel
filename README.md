@@ -1,4 +1,7 @@
-![Deskripsi Gambar](store_logo.png)
+<p align="center">
+  <img src="path/to/store_logo.png" alt="Logo" width="200"/>
+</p>
+
 
 | [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) |
 |------------------------------------|-------------------------|-----------------------------------|--------------------------|------------------------|
