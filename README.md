@@ -1,3 +1,4 @@
+![Deskripsi Gambar](store_logo.png)
 
 | [Sekilas Tentang](#sekilas-tentang) | [Instalasi](#instalasi) | [Cara Pemakaian](#cara-pemakaian) | [Pembahasan](#pembahasan) | [Referensi](#referensi) |
 |------------------------------------|-------------------------|-----------------------------------|--------------------------|------------------------|
