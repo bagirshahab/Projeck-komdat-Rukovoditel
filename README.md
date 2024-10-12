@@ -5,7 +5,7 @@ Tugas Projek sesi UTS mata kuliah Komdat kelompok 6, Dapat diakses di
 
 Rukovoditel adalah aplikasi open source yang bisa diinstal di server lokal atau server internet yang mendukung PHP/MySQL. Proyek ini terdiri dari dua bagian: bagian utama yang gratis dan Ekstensi. Di bagian utama, Rukovoditel menyediakan berbagai alat yang memudahkan Anda untuk merancang dan mengatur aplikasi sesuai kebutuhan. Sedangkan, Ekstensi menawarkan fitur tambahan seperti laporan dan alat yang lebih canggih untuk mendukung perencanaan dan manajemen yang lebih optimal.
 
-Rukovoditel pertama kali dirilis pada November 2014 dan dilisensikan di bawah GNU GPLv3. Aplikasi ini ditulis dalam bahasa pemrograman PHP dan sudah dioptimalkan untuk perangkat mobile. Rukovoditel juga mendukung LDAP untuk otentikasi, tersedia dalam berbagai bahasa, serta mampu menampilkan teks dalam arah kanan ke kiri (RTL), menjadikannya fleksibel dan dapat digunakan oleh beragam pengguna.
+Rukovoditel pertama kali dirilis pada November 2014 dan dilisensikan di bawah GNU GPLv3. Aplikasi ini ditulis dalam bahasa pemrograman PHP dan sudah dioptimalkan untuk perangkat mobile. Rukovoditel juga mendukung LDAP untuk otentikasi, tersedia dalam berbagai bahasa, serta mampu menampilkan teks dalam arah kanan ke kiri (RTL), menjadikannya fleksibel dan dapat digunakan oleh beragam pengguna dari berbagai penjuru dunia.
 
 ## Instalasi
 
